@@ -31,6 +31,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.tbInputBox = new System.Windows.Forms.TextBox();
             this.tbOutput = new System.Windows.Forms.TextBox();
+            this.cbHashType = new System.Windows.Forms.ComboBox();
             this.SuspendLayout();
             // 
             // label1
@@ -63,11 +64,28 @@
             this.tbOutput.Text = "Output (Auto-Updated)";
             this.tbOutput.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
+            // cbHashType
+            // 
+            this.cbHashType.FormattingEnabled = true;
+            this.cbHashType.Items.AddRange(new object[] {
+            "MD5",
+            "SHA1",
+            "SHA256",
+            "SHA384",
+            "SHA512"});
+            this.cbHashType.Location = new System.Drawing.Point(224, 59);
+            this.cbHashType.Name = "cbHashType";
+            this.cbHashType.Size = new System.Drawing.Size(121, 23);
+            this.cbHashType.TabIndex = 3;
+            this.cbHashType.Tag = "";
+            this.cbHashType.SelectedIndexChanged += new System.EventHandler(this.cbHashType_SelectedIndexChanged);
+            // 
             // MainWindow
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(569, 152);
+            this.Controls.Add(this.cbHashType);
             this.Controls.Add(this.tbOutput);
             this.Controls.Add(this.tbInputBox);
             this.Controls.Add(this.label1);
@@ -75,6 +93,7 @@
             this.Name = "MainWindow";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "SimpleHash";
+            this.Load += new System.EventHandler(this.MainWindow_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -85,5 +104,6 @@
         private Label label1;
         private TextBox tbInputBox;
         private TextBox tbOutput;
+        private ComboBox cbHashType;
     }
 }
