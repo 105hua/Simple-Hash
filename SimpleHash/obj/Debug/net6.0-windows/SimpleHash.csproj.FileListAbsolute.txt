@@ -1,0 +1,17 @@
+D:\Projects\SimpleHash\SimpleHash\bin\Debug\net6.0-windows\SimpleHash.exe
+D:\Projects\SimpleHash\SimpleHash\bin\Debug\net6.0-windows\SimpleHash.deps.json
+D:\Projects\SimpleHash\SimpleHash\bin\Debug\net6.0-windows\SimpleHash.runtimeconfig.json
+D:\Projects\SimpleHash\SimpleHash\bin\Debug\net6.0-windows\SimpleHash.dll
+D:\Projects\SimpleHash\SimpleHash\bin\Debug\net6.0-windows\ref\SimpleHash.dll
+D:\Projects\SimpleHash\SimpleHash\bin\Debug\net6.0-windows\SimpleHash.pdb
+D:\Projects\SimpleHash\SimpleHash\obj\Debug\net6.0-windows\SimpleHash.csproj.AssemblyReference.cache
+D:\Projects\SimpleHash\SimpleHash\obj\Debug\net6.0-windows\SimpleHash.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\SimpleHash\SimpleHash\obj\Debug\net6.0-windows\SimpleHash.AssemblyInfoInputs.cache
+D:\Projects\SimpleHash\SimpleHash\obj\Debug\net6.0-windows\SimpleHash.AssemblyInfo.cs
+D:\Projects\SimpleHash\SimpleHash\obj\Debug\net6.0-windows\SimpleHash.csproj.CoreCompileInputs.cache
+D:\Projects\SimpleHash\SimpleHash\obj\Debug\net6.0-windows\SimpleHash.dll
+D:\Projects\SimpleHash\SimpleHash\obj\Debug\net6.0-windows\ref\SimpleHash.dll
+D:\Projects\SimpleHash\SimpleHash\obj\Debug\net6.0-windows\SimpleHash.pdb
+D:\Projects\SimpleHash\SimpleHash\obj\Debug\net6.0-windows\SimpleHash.genruntimeconfig.cache
+D:\Projects\SimpleHash\SimpleHash\obj\Debug\net6.0-windows\SimpleHash.MainWindow.resources
+D:\Projects\SimpleHash\SimpleHash\obj\Debug\net6.0-windows\SimpleHash.csproj.GenerateResource.cache
